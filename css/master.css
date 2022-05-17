@@ -40,6 +40,7 @@ body{
 }
 .hover:hover{
     opacity: 1;
+    transition: 1s;
 }
 .parent > p:nth-of-type(2){
     color: white;
@@ -124,53 +125,5 @@ p span:hover{
     }
     .hover:hover{
         opacity: 1;
-    }
-    .parent > p:nth-of-type(2){
-        color: white;
-        font-weight: 600;
-        font-size: 18px;
-        margin: 0px 20px 20px 20px;
-    }
-    .parent > p:nth-of-type(2):hover{
-        color:  hsl(178, 100%, 50%);
-    }
-    .parent > p:nth-of-type(3){
-        color:  hsl(215, 51%, 70%);
-        font-size: 18px;
-        font-weight: 400;
-        width: 320px;
-        margin: 20px;
-        margin-bottom: 10px;
-    }
-    div:nth-child(5){
-        margin: 20px;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 20px;
-        border-bottom: 1px white solid;
-    }
-    .parent div p:nth-of-type(1){   
-        color: hsl(178, 100%, 50%);
-    }
-    .parent div:nth-last-child(1){
-        display: flex;
-        margin: 20px;
-        align-items: center;
-    }
-    .img{
-        width: 40px;
-        height: 40px;
-        border: 1px white solid;
-        border-radius: 50%;
-        margin-right: 10px;
-    }
-    p span{
-        color: white;
-    }
-    p span:hover{
-        color:  hsl(178, 100%, 50%);
-    }
-    .parent div  p:nth-child(2){
-        color:  hsl(215, 51%, 70%);
     }
 }
